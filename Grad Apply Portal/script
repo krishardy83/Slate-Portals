@@ -1,0 +1,31 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <script>/*<![CDATA[*/  const buttons = document.querySelectorAll("button[data-accordion-trigger]");
+
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const content = document.querySelector(
+        `#${button.getAttribute("aria-controls")}`
+      );
+      const visible = button.getAttribute("aria-expanded") === "true";
+
+      button.setAttribute("aria-expanded", visible ? "false" : "true");
+
+      if (!content) return;
+
+      if (visible) {
+        content.style.removeProperty("height");
+        content.classList.remove("h-auto");
+        content.classList.add("h-0", "invisible");
+      } else {
+        content.style.setProperty("height", content.scrollHeight + "px");
+        content.classList.remove("h-0", "invisible");
+        content.classList.add("h-auto");
+      }
+    });
+  });/*]]>*/</script>
+  </body>
+</html>

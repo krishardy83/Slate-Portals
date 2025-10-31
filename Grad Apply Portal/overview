@@ -1,0 +1,54 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <div class="content-grid">
+      <div class="content-grid-left">
+        <h2>
+          Apply to Messiah University
+        </h2>
+
+        <p>
+          Applicants are encouraged to review the <a href="https://www.messiah.edu/info/21084/graduate_admissions" rel="noopener" target="_blank"><span>admissions requirements for their program of interest</span></a>&nbsp;prior to applying to ensure that they are eligible for enrollment and to track their admissions requirements and supporting documentation on the provided checklist. Questions regarding the application process may be directed to&nbsp;<a href="mailto:gradprograms@messiah.edu"><span>gradprograms@messiah.edu</span></a>.
+        </p>
+
+        <h2>
+          How To Apply
+        </h2>
+
+        <p>
+          Select your program area of choice below to view application options and steps.
+        </p>
+
+        <h2>
+          Program Selection
+        </h2>
+      </div>
+
+      <div class="content-grid-right">
+        <article class="@container bg-primary-800 px-6 py-4 mb-6" data-analytics="multi-purpose">
+        <div class="flex flex-col @md:flex-row gap-4">
+          <figure class="@md:w-1/3"><img alt="" src="https://www.messiah.edu/assets/files/slate/assets/_images/apply.svg" style="width:100px; margin:auto;" /></figure>
+
+          <div class="@md:w-2/3">
+            <h3 class="h3 text-white">
+              Continue or View App Status
+            </h3>
+
+            <div class="text-sm text-white rich-text">
+              <p>
+                <a href="https://mcadmissions.messiah.edu/account/login?r=https://mcadmissions.messiah.edu/apply" rel="noopener" style="color: #fff!important;" target="_blank">Log in here</a>&nbsp;to continue work on a pre-existing application.
+              </p>
+
+              <p>
+                <a class="white-text" href="https://mcadmissions.messiah.edu/account/login?r=https://mcadmissions.messiah.edu/apply/status" style="color: #fff!important;">Log in here</a> to track the status of your submitted application.
+              </p>
+            </div>
+          </div>
+        </div>
+        </article>
+      </div>
+    </div>
+  </body>
+</html>

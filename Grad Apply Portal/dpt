@@ -1,0 +1,20 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <div class="border border-gray-300 mb-4 not-prose" data-analytics="accordion">
+      <h3 class="portal">
+        <button aria-controls="dpt" aria-expanded="false" class="group relative flex w-full items-center gap-x-4 bg-gray-100 py-4 pl-4 pr-14 text-left transition-colors aria-expanded:bg-white" data-accordion-trigger="data-accordion-trigger" id="button-dpt" type="button"><span class="flex flex-1 flex-wrap gap-x-2"><span class="mr-auto font-sans text-sm text-primary-800 sm:text-base md:text-lg"> Doctor of Physical Therapy&nbsp;</span></span><svg class="absolute right-4 top-1/2 size-5 shrink-0 -translate-y-1/2 transition-transform duration-300 group-aria-expanded:rotate-180" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m19.5 8.25-7.5 7.5-7.5-7.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></button>
+      </h3>
+
+      <div aria-labelledby="button-dpt" class="rich-text overflow-hidden border-t border-gray-300 transition-all duration-500 ease-out h-0 invisible" data-accordion-content="data-accordion-content" id="dpt" role="region">
+        <div class="p-4">
+          <p>
+            {{'apply-dpt' | block: "grad-apply-portal"}}
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

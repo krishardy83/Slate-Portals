@@ -1,0 +1,24 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <h1>
+      {% if {{first-exists}} contains "y" %}{{name}}, thank you for requesting information about Messiah University's Graduate Programs.{% else %} Thank you for requesting information about Messiah University Graduate Programs.{% endif %}
+    </h1>
+
+    <div class="pr-12">
+      <p data-end="480" data-start="78">
+        You are taking an important step toward advancing your personal and professional goals. One of our enrollment counselors will reach out to you within the next few business days to discuss your educational goals.&nbsp;<br />
+        <br />
+        To ensure that you continue to receive email from us, <strong>please add our email "gradprograms@messiah.edu" and our domain "@messiah.edu" to your safe senders list</strong>!&nbsp;<br />
+        <br />
+        By submitting this form, you agree to emails, phone calls and/or text messages from or on behalf of Messiah University. You can opt out anytime by emailing "UNSUBSCRIBE" to <a href="mailto:gradprograms@messiah.edu"><span style="color:#273d5e;text-decoration:underline">gradprograms@messiah.edu</span></a>.&nbsp;
+      </p>
+
+      <p data-end="581" data-start="482">
+        Should you have any questions, please do not hesitate to call our office at 717-796-5061 or email <a href="mailto:gradprograms@messiah.edu"><span style="color:#273d5e;text-decoration:underline">gradprograms@messiah.edu</span></a>.&nbsp;
+      </p>
+    </div>
+  </body>
+</html>

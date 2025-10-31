@@ -1,0 +1,24 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <style type="text/css">/*<![CDATA[*/    .event_list_display{
+    max-width: 550px; 
+}
+    /*]]>*/
+    </style>
+    <title>Event Page</title>
+    <style type="text/css">/*<![CDATA[*/    .event_list_display {
+      padding-left: 0px!important; 
+      }
+/*]]>*/
+    </style>
+  </head>
+  <body>
+    <div div="div">
+      <ul class="portal">
+        <li class="p-4 bg-white border border-gray-300 w-full flex items-center gap-4 relative group">
+          <time class="bg-gray-800 uppercase font-title font-bold text-white w-12 text-center aspect-square leading-none flex flex-col items-center justify-center group-hover:bg-primary-700 transition-colors flex-shrink-0"><span>{{event.start_date_month}}</span><span>{{event.start_date_day}}</span></time><a class="flex-1 text-base md:text-lg leading-tight group-hover:text-tertiary-400 transition-colors font-bold flex flex-col md:flex-row justify-between items-start md:items-center no-underline portal" href="{{event._event_link}}"><span>{{event.title}}</span><span class="font-normal">{{event.start_time}}</span></a><svg class="ml-2 size-5 @md:block" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m8.25 4.5 7.5 7.5-7.5 7.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
