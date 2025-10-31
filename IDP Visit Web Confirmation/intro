@@ -1,0 +1,16 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <h1>
+      {% if {{first-exists}} contains "y" %}{{name}}, we look forward to meeting you!{% else %}We look forward to meeting you!{% endif %}
+    </h1>
+
+    <p>
+      Thank you for registering to visit Messiah University! You will receive an email in the future with additional information about your visit.&nbsp;<br />
+      <br />
+      If you have any questions about your scheduled visit, don’t hesitate to reach out to us at <a href="mailto:visitmessiah@messiah.edu" target="_blank"><span style="color:#273d5e;text-decoration:underline">visitmessiah@messiah.edu</span></a>, or call us at 1-800-233-4220 (8 a.m. to 5 p.m. Eastern Time).&nbsp;We’re here to help!
+    </p>
+  </body>
+</html>
