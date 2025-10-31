@@ -1,0 +1,18 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <h1>
+      {% if {{first-exists}} contains "y" %}{{name}}, thanks for requesting information about Messiah!{% else %} Thanks for requesting information about Messiah!{% endif %}
+    </h1>
+
+    <p>
+      We can’t wait to share more about Messiah University soon—where academic excellence and a strong faith foundation come together to prepare our graduates to be leaders and positive change-makers in the world.<br />
+      <br />
+      In the meantime, we invite you to explore everything Messiah has to offer! Come <a href="https://www.messiah.edu/visit" target="_blank"><span style="color:#273d5e;text-decoration:underline">visit our campus</span></a> (check out the upcoming visit options below!), discover the wide range of <a href="https://www.messiah.edu/academics/undergraduate/" target="_blank"><span style="color:#273d5e;text-decoration:underline">academic and co-curricular opportunities</span></a>, and <a href="https://colleges.zeemee.com/colleges/messiah/interested" target="_blank"><span style="color:#273d5e;text-decoration:underline">connect with our vibrant student community on ZeeMee</span></a>.<br />
+      <br />
+      If you have any questions, don’t hesitate to reach out to us at admissions@messiah.edu. We’re here to help!
+    </p>
+  </body>
+</html>

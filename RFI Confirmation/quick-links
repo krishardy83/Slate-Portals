@@ -1,0 +1,27 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <nav class="not-prose bg-primary-800 px-6 py-4" data-analytics="quick-links">
+    <h3 class="h4 text-white mb-4">
+      Quick Links
+    </h3>
+
+    <ul class="portal space-y-2">
+      <li class="portal flex gap-2">
+        <a class="portal link btn bg-white shadow-md w-full" href="/entity/open.act?type=page&amp;id=dbb1f2510a0000a910daf256142ae405&amp;confId=67c6e7750a0000a906da0355ed555d4e" target="_parent">Visit Campus</a>
+      </li>
+      <li class="portal flex gap-2">
+        <a class="portal link btn bg-white shadow-md w-full" href="https://tour.messiah.edu/" target="_parent">Virtual Tour</a>
+      </li>
+      <li class="portal flex gap-2">
+        <a class="portal link btn bg-white shadow-md w-full" href="/entity/open.act?type=page&amp;id=5df043d40a0000a95a6cabb7c6d3505d&amp;confId=67c6e7750a0000a906da0355ed555d4e" target="_parent">Academics</a>
+      </li>
+      <li class="portal flex gap-2">
+        <a class="portal link btn bg-white shadow-md w-full" href="/entity/open.act?type=page&amp;id=95f185970a0000a9159de51d7c66156e&amp;confId=67c6e7750a0000a906da0355ed555d4e" target="_parent">Tuition &amp; Fees</a>
+      </li>
+    </ul>
+    </nav>
+  </body>
+</html>

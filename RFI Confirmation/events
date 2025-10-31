@@ -1,0 +1,12 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Event Page</title>
+  </head>
+  <body>
+    <ol class="portal">
+      <li class="portal">
+        <a class="portal border-4 border-tertiary-300 flex flex-col p-4 h-32 hover:bg-tertiary-300 group transition-colors focus-visible:bg-tertiary-300" href="{{event._event_link}}"><span class="font-title uppercase font-bold text-2xl" x-text="getTitle(date.StartDate)">{{event.title}}</span><span>{{event.start_date}}</span><span class="flex items-center gap-2 mt-auto opacity-0 group-hover:opacity-100 transition-all translate-y-6 group-hover:translate-y-0 group-focus-visible:opacity-100 group-focus-visible:translate-y-0"> Register <svg class="size-4" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m8.25 4.5 7.5 7.5-7.5 7.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></a>
+      </li>
+    </ol>
+  </body>
+</html>
