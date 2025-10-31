@@ -1,0 +1,18 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <header class="w-full aspect-video relative after:absolute max-h-[350px] after:bg-gradient-to-r after:from-primary-800/80 after:via-primary-800/80 after:from after:to-transparent after:inset-0"><img alt="" class="w-full h-full object-cover bg-primary-700" src="https://www.messiah.edu/assets/files/slate/assets/_images/status-page-ug.webp" />
+    <div class="absolute left-8 top-1/2 -translate-y-1/2 text-white z-10">
+      <h2 class="portal font-title font-bold text-7xl">
+        <span id="cke_bm_248S" style="display: none;">&nbsp;</span>Welcome&nbsp;{{preferred}}!
+      </h2>
+
+      <p class="font-title text-2xl uppercase">
+        This page is your Messiah University admissions HQ.
+      </p>
+    </div>
+    </header>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <h2 style="text-align: center;">
+      Meet your counselor
+    </h2>
+
+    <div>
+      {{staff-assigned-email|snippet:"ug-status-portal-staff"}}
+    </div>
+  </body>
+</html>
