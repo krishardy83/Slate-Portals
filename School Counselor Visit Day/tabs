@@ -1,0 +1,47 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <nav class="btn-group">
+    <ul class="pb-6 flex flex-col gap-2 sm:flex-row sm:flex-wrap portal">
+      <li class="w-full sm:w-auto">
+        <a class="btn-tertiary portal active block w-full sm:w-auto" data-analytics="button" data-tab="tab3" href="#" target="_parent">Event Information </a>
+      </li>
+      <li class="w-full sm:w-auto">
+        <a class="btn-tertiary portal block w-full sm:w-auto" data-analytics="button" data-tab="tab2" href="#" target="_parent">Tentative Schedule </a>
+      </li>
+      <li class="w-full sm:w-auto">
+        <a class="btn-tertiary portal block w-full sm:w-auto" data-analytics="button" data-tab="tab1" href="#" target="_parent">Registration Form </a>
+      </li>
+    </ul>
+    </nav>
+
+    <div id="content_body">
+    </div>
+    <script type="text/javascript">/*<![CDATA[*/ 
+var loadTab=function(tab, isBack){
+ if (!isBack) history.pushState(tab, null, "?tab=" + tab);
+ $("a[data-tab]").removeClass("active");
+ $("a[data-tab='" + tab + "']").addClass("active"); 
+ FW.Lazy.Fetch("?cmd=" + tab, $("#content_body"));
+};
+ 
+window.addEventListener("popstate", function(e){
+ if (e.state) loadTab(e.state, true);
+   else history.back();
+});
+
+$("a[data-tab]").on("click", function(){ 
+ loadTab($(this).data("tab")); 
+ return false;
+});
+ 
+var qs = FW.decodeFormValues(location.search.substring(1));
+if (qs["tab"]) loadTab(qs["tab"]);
+else {
+ var default_tab = $("ul.subtabs").find("li > a").eq(0).data("tab");
+ loadTab(default_tab);
+}/*]]>*/</script>
+  </body>
+</html>
