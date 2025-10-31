@@ -1,0 +1,14 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <h2 style="text-align: center;">
+      Messiah University - where top-tier academics and Christian faith meet
+    </h2>
+
+    <div class="grid-3  ">
+      <a class="@container not-prose group relative aspect-[4/3]" data-analytics="image-hover-link block" href="https://www.youtube.com/watch?v=5_svwEuH9fY" target="_parent"><img alt="" class="w-full h-full object-cover group-hover:opacity-75 group-focus:opacity-75 transition-opacity" src="https://mcadmissions.messiah.edu/www/images/Undergrad%20Images/newsletter/students-walking-play-button.jpg" /><span class="absolute left-0 top-0 duration-300 transition-all bg-primary-800/80 font-title font-bold uppercase mx-auto text-white py-2 leading-none @xs:text-lg px-4">See Anew at Messiah</span></a><a class="@container not-prose group relative aspect-[4/3]" data-analytics="image-hover-link block" href="https://tour.messiah.edu/" target="_parent"><img alt="" class="w-full h-full object-cover group-hover:opacity-75 group-focus:opacity-75 transition-opacity" src="https://mcadmissions.messiah.edu/www/images/Undergrad%20Images/newsletter/boyer-newsletter.jpg" /><span class="absolute left-0 top-0 duration-300 transition-all bg-primary-800/80 font-title font-bold uppercase mx-auto text-white py-2 leading-none @xs:text-lg px-4">Virtual Tour</span></a><a class="@container not-prose group relative aspect-[4/3]" data-analytics="image-hover-link block" href="https://www.messiah.edu/area/" target="_parent"><img alt="" class="w-full h-full object-cover group-hover:opacity-75 group-focus:opacity-75 transition-opacity" src="https://mcadmissions.messiah.edu/www/images/Undergrad%20Images/newsletter/kayak-newsletter.jpg" /><span class="absolute left-0 top-0 duration-300 transition-all bg-primary-800/80 font-title font-bold uppercase mx-auto text-white py-2 leading-none @xs:text-lg px-4">Live like a local</span></a>
+    </div>
+  </body>
+</html>
