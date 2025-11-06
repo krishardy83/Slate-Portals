@@ -8,17 +8,17 @@
       Quick Links
     </h3>
 
-    <ul class="space-y-2">
-      <li class="flex gap-2">
+    <ul class="portal space-y-2">
+      <li class="portal flex gap-2">
         <a class="link btn bg-white shadow-md w-full portal" href="https://www.messiah.edu/undergraduate-admissions/pages/directions1/directions.html" target="_parent">Directions</a>
       </li>
-      <li class="flex gap-2">
+      <li class="portal flex gap-2">
         <a class="link btn bg-white shadow-md w-full portal" href="https://tour.messiah.edu/campus-map/" target="_parent">Campus Map</a>
       </li>
-      <li class="flex gap-2">
+      <li class="fportal lex gap-2">
         <a class="link btn bg-white shadow-md w-full portal" href="https://www.messiah.edu/gn-about/our-campus/lodging.html" target="_parent">Lodging</a>
       </li>
-      <li class="flex gap-2">
+      <li class="portal flex gap-2">
         <a class="link btn bg-white shadow-md w-full portal" href="https://www.messiah.edu/area/index.html" target="_parent">Area Guide</a>
       </li>
     </ul>
