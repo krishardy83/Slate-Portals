@@ -8,17 +8,17 @@
       Quick Links
     </h3>
 
-    <ul class="space-y-2">
-      <li class="flex gap-2">
+    <ul class="portal space-y-2">
+      <li class="portal flex gap-2">
         <a class="link btn bg-white shadow-md w-full portal" href="https://www.messiah.edu/grad-admissions/meet-our-staff" target="_parent">Meet Our Staff</a>
       </li>
-      <li class="flex gap-2">
+      <li class="portal flex gap-2">
         <a class="link btn bg-white shadow-md w-full portal" href="https://www.messiah.edu/academics/graduate/" target="_parent">Academics</a>
       </li>
-      <li class="flex gap-2">
+      <li class="portal flex gap-2">
         <a class="link btn bg-white shadow-md w-full portal" href="https://www.messiah.edu/school-gps/cost-and-aid/tuition" target="_parent">Cost and Aid</a>
       </li>
-      <li class="flex gap-2">
+      <li class="portal flex gap-2">
         <a class="link btn bg-white shadow-md w-full portal" href="https://mcadmissions.messiah.edu/portal/grad-apply" target="_parent">Apply</a>
       </li>
     </ul>
