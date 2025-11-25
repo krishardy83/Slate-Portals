@@ -1,0 +1,33 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <nav>
+    <h3 class="mb-8 text-center font-title text-4xl font-bold  text-primary-800 ">
+      Explore More
+    </h3>
+
+    <ul class="portal pb-6 flex gap-2 flex-wrap justify-center">
+      <li>
+        <a class="portal btn-primary" data-analytics="button" href="https://tour.messiah.edu/campus-map/" target="_parent">Campus map</a>
+      </li>
+      <li>
+        <a class="portal btn-primary" data-analytics="button" href="/entity/open.act?type=page&amp;id=093039550a0000a906bf7175ec6a6ae8&amp;confId=67c673040a0000a906da03552fafbf0a" target="_parent">Directions</a>
+      </li>
+      <li>
+        <a class="portal btn-primary" data-analytics="button" href="https://campustravel.com/university/messiah-university/" target="_parent">Lodging</a>
+      </li>
+      <li>
+        <a class="portal btn-primary" data-analytics="button" href="/entity/open.act?type=page&amp;id=093054100a0000a906bf71758727042b&amp;confId=67c673040a0000a906da03552fafbf0a" target="_parent">Travel</a>
+      </li>
+      <li>
+        <a class="portal btn-primary" data-analytics="button" href="/entity/open.act?type=page&amp;id=95d147460a0000a9159de51d5cc89b4d&amp;confId=67c6e7750a0000a906da0355ed555d4e" target="_parent">Area</a>
+      </li>
+      <li>
+        <a class="portal btn-primary" data-analytics="button" href="https://indd.adobe.com/view/49584b96-6724-4d2f-ae18-17c0490f3ac6" target="_parent">Live like a local</a>
+      </li>
+    </ul>
+    </nav>
+  </body>
+</html>

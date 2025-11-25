@@ -1,0 +1,25 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <h1>
+      {% if {{preferred-exists}} contains "y" %}{{preferred}}, we'd love to see you soon!{% else %} We'd love to see you soon!&nbsp;{% endif %}
+    </h1>
+
+    <p>
+      Messiah has multiple in-person visit options available. Know the date you'd like to schedule a visit? Check out the calendar to find available visit options.<br />
+      &nbsp;
+    </p>
+
+    <h3>
+      <strong>Ready to schedule?</strong>
+    </h3>
+
+    <p>
+      <strong>Step 1: </strong>Choose an available date in the calendar to view visit options.<br />
+      <strong>Step 2:</strong>&nbsp;Click on an available visit option to view the registration.<br />
+      <strong>Step 3:</strong> Complete your registration!
+    </p>
+  </body>
+</html>
